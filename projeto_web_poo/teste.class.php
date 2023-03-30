@@ -11,19 +11,19 @@ class teste{
            $pessoa->setNome($_POST['nome']);
            echo $pessoa->getNome() . "<br>";
 
-           //endereço
+           //telefone
            $pessoa->setTelefone($_POST['telefone']);
            echo $pessoa->getTelefone() . "<br>";
 
-           //bairro
+           //origem
            $pessoa->setOrigem($_POST['origem']);
            echo $pessoa->getOrigem() . "<br>";
 
-           //cep
+           //Data de contato
            $pessoa->setDatadecontato($_POST['datadecontato']);
            echo $pessoa->getDatadecontato() . "<br>";
 
-           //estado
+           //observação
            $pessoa->setObservacao($_POST['observacao']);
            echo $pessoa->getObservacao() . "<br>";
        }
