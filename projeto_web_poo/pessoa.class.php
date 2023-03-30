@@ -16,7 +16,7 @@ class pessoa{
         $this -> nome = $nome;
     }
 
-    //endereço
+    //Telefone
     public function getTelefone(){
         return $this -> telefone;
     }
@@ -24,7 +24,7 @@ class pessoa{
         $this -> telefone = $telefone;
     }
 
-    //bairro
+    //Origem
     public function getOrigem(){
         return $this -> origem;
     }
@@ -32,7 +32,7 @@ class pessoa{
         $this -> origem = $origem;
     }
 
-    //cep
+    //Data de contato
     public function getDatadecontato(){
         return $this -> datadecontato;
     }
@@ -40,7 +40,7 @@ class pessoa{
         $this -> datadecontato = $datadecontato;
     }
 
-    //cidade
+    //observação
     public function getObservacao(){
         return $this -> observacao;
     }
